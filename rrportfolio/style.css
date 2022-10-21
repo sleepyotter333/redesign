@@ -1,0 +1,61 @@
+/* color palette for site from https://coolors.co/palette/12130f-5b9279-8fcb9b-eae6e5-8f8073*/
+/* ubuntu-300 - latin */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('./fonts/ubuntu-v20-latin/ubuntu-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/ubuntu-v20-latin/ubuntu-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  } 
+  /* ubuntu-regular - latin */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/ubuntu-v20-latin/ubuntu-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/ubuntu-v20-latin/ubuntu-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  } 
+  /* ubuntu-700 - latin */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('./fonts/ubuntu-v20-latin/ubuntu-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/ubuntu-v20-latin/ubuntu-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  body{
+      font-family: "Ubuntu";
+      background-color: #EAE6E5;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+      font-family: "Ubuntu";
+  }
+
+  h1 {
+      background-color: #5B9279;
+      color: #EAE6E5;
+  }
+
+  h2,
+  h3,
+  h4,
+  p {
+      color: #12130F;
+  }
+
+  p {
+      padding-top: 2rem;
+  }
+
+  .navbar {
+      background-color: #5B9279;
+  }
+  

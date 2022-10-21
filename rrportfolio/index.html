@@ -1,0 +1,124 @@
+<!-- I created this site by following along with Jeff's bootstrap video -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Redesign</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-light text-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Responsive Redesign</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item"><a href="#webpage" class="nav-link">Webpage</a></li>
+                    <li class="navbar-item"><a href="#problems" class="nav-link">Usability Problems</a></li>
+                    <li class="navbar-item"><a href="#lofi" class="nav-link">Lo-Fi</a></li>
+                    <li class="navbar-item"><a href="#guide" class="nav-link">Style Guide</a></li>
+                    <li class="navbar-item"><a href="#hifi" class="nav-link">Hi-Fi</a></li>
+                    <li class="navbar-item"><a href="#redesign" class="nav-link">Redesign</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div id="webpage" class="d-flex flex-column container-fluid">
+    <h1>Pizza Garden's Current Webpage</h1>
+    <img src="images/pizzagarden1.jpg" alt="a screenshot of a local pizzeria website" style="width: 60rem; height: 30rem;">
+    <img src="images/pizzagarden2.jpg" alt="another screenshot of a local pizzeria website" style="width: 60rem; height: 30rem;">
+    <a href="https://www.pizzagarden.com/">Pizza Garden's website</a>
+    <p>I choose this website because it is a local pizzeria to me and I felt like the website is cluttered. </p>
+</div>
+
+<div id="problems" class="container-fluid">
+    <h1>Identifying Usability Problems</h1>
+    <h3>Problems</h3>
+
+    <ul>
+        <li>Webpage does not have a clear hierarchy.</li>
+        <li>No hierarchical distinguishment between the navigation bar and the address and phone number. </li>
+        <li>The same information is repeated multiple times.</li>
+        <li>There are three buttons to their Facebook page and the written url for it.</li>
+        <li>A url is written out without a link so a user would have to manually enter it to access it.</li>
+        <li>The address and phone number are written twice in different locations.</li>
+        <li>There are two search bars.</li>
+        <li>Multiple options provided to contact them.</li>
+        <li>Key information, such as the hours of the restaurant or how to place an order are not presented so that they can be found efficiently.</li>
+        <li>Users have to scroll to place an online order.</li>
+        <li>Unlabeled QR code. Doesn’t provide context to the user.</li>
+        <li>Multiple designs for buttons.</li>
+        <li>Different fonts and colors used for different headings.</li>
+        <li>No spacing between sections on the bottom half of the page.</li>
+        <li>The “MORE” section of the navigation bar leads to information already presented on home page.</li>
+        <li>“Coupons” section of the navigation bar leads to a picture of the different coupons over the decades, rather than discounts. Different from what a user might expect of the label.</li>
+        <li>Restaurant’s theme song automatically plays.</li>
+        <li>Listed store hours do not include AM/PM</li>
+    </ul>
+    <h3>Accessibility</h3>
+    <p>I do agree with most of the accessibility findings detected. None of the images in the gallery section have alt text, and three pictures that do have alt text, have the same descriptions, despite being wildly different. The page also uses a lot of layout tables which makes it difficult for screen readers. There are 3 headings with level 2 but only one of them is a heading. The only accessibility issue detected that I disagree with is the contrast issues. It found problems with the text written on the blackboard, but I considered the contrast to be readable.  </p>
+</div>
+
+<div id="lofi" class="container-fluid">
+    <h1>Low Fidelity Wireframes</h1>
+    <img src="images/wireframe1.jpg" alt="low fidelity sketch of a pizzeria website on a browser" style="width: 60rem; height: 50rem;">
+    <br>
+    <img src="images/wireframe2.jpg" alt="low fidelity sketch of a pizzeria website on a smartphone" style="width: 25rem; height: 50rem;">
+    <img src="images/wireframe3.jpg" alt="low fidelity sketch of a pizzeria website on a tablet" style="width: 40rem; height:55rem;">
+
+    <ol type="1">
+        <li>Added a consistent theme to the headings and text.</li>
+        <li>Placed all the contact information together as well as reduced redundancy of multiple Facebook links.</li>
+        <li>Placed address and phone number at top of page for easy access.</li>
+        <li>Order online button placed in easily locatable position so that users no longer need to scroll to find it. </li>
+        <li>Added “AM” and “PM” to store hours.</li>
+        <li>Added a button for the instructions for the pizza kit to remove some of the text. </li>
+        <li>Removed parts of navigation bar that are already displayed on the page such as the gallery section or pizza kit section. Also removed the coupons tab.</li>
+        <li>Organized all the gallery photos into a slideshow to reduce clutter.</li>
+        <li>Increased spacing between sections on page.</li>
+        <li>Got rid of one of the unnecessary search bars and kept one for simplicity. </li>
+    </ol>
+</div>
+<div id="guide" class="container-fluid">
+    <h1>Visiual Design Style Guide</h1>
+    <img src="images/visual guide.jpg" alt="a visual design guide for my redesign of a pizza website" style="width: 60rem; height: 50rem;">
+</div>
+<div id="hifi" class="container-fluid">
+    <h1>High Fidelity Prototypes</h1>
+    <img src="images/hifi1.jpg" alt="a high fidelity prototype of a pizzeria on a browser" style="width: 60rem; height: 50rem;">
+    <p>The browser contains:</p>
+    <ul>
+        <li>a flexbox with two columns and two rows</li>
+        <li>each of the boxes is one cell</li>
+        <li>they are centered using space-between</li>
+    </ul>
+    <br>
+    <img src="images/hifi2.jpg" alt="a high fidelity prototype of a pizzeria on a smartphone" style="width: 25rem; height: 55rem;">
+    <img src="images/hifi3.jpg" alt="a high fidelity prototype of a pizzeria on a tablet" style="width: 35rem; height: 55rem;">
+    <p>The smartphone and tablet contain:</p>
+    <ul>
+        <li>a flexbox with one column and four rows</li>
+        <li>each of the boxes is one cell</li>
+        <li>scrolling is enabled</li>
+    </ul>
+    <p>In all three sizes:</p>
+    <ul>
+        <li>the position of the header is absolute and is pinned to the top of the page</li>
+        <li>the position of the footer is absolute and is pinned to the bottom of the page</li>
+    </ul>
+</div>
+<div id="hifi" class="container-fluid">
+    <h1>Redesigned Site</h1>
+    <!-- <img src="images/specificsarah.png" alt="an empathy map of a user" style="width: 40rem; height: 50rem;">
+    <img src="images/testfultom.png" alt="an empathy map of a user" style="width: 40rem; height: 50rem;"> -->
+    <a href="https://www.w3schools.com/html/html_links.asp">redesigned Pizza Garden website</a>
+</div>
+
+ </body>
+</html>
+
+
